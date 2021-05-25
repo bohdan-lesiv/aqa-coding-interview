@@ -28,3 +28,4 @@ which describes the data he wants to receive
 ### Dev info
 
 - Python >= 3.8
+- ONLY private forks and PRs are allowed  
