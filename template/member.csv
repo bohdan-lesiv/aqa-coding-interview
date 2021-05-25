@@ -1,0 +1,13 @@
+column_name,value_type
+identity_id, str
+last_name, str
+first_name, str
+gender, str
+birth_date, str(2021-12-31)
+ssn, str
+mobile_phone_number, str
+home_phone_number, str
+ethnicity, str
+email, str
+health_id, str
+note: str
