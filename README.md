@@ -20,12 +20,17 @@ which describes the data he wants to receive
 ### Tasks
 
 1. Create test data generator using specified schema
-2. Test data generator output should be in csv
-3. We should have tests that verify the output data has the same types as specified in template
-4. We should add these tests as Github workflow and executed for every push on every branch    
-5. Test data generator should process 1M records in less than 10 seconds.
+1.1 Script should be packaged with ability to import it as library into python code.
+1.2 Output should be set via parameter.
+1.3 Output format should be csv
+1.4 Script should have ability to put data in s3 bucket.
+1.5 Package should have ability to be installed and used in cli.
+2. Script should be covered by unit tests.
+5. Built package should be added as attachment in github workflows.
+6. Unit tests should be executed via github workflows on push, PR.
+
 
 ### Dev info
 
-- Python >= 3.8
+- Python >= 3.9
 - ONLY private forks and PRs are allowed  
