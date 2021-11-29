@@ -20,11 +20,12 @@ which describes the data he wants to receive
 ### Tasks
 
 1. Create test data generator using specified schema
-1.1 Script should be packaged with ability to import it as library into python code.
-1.2 Output should be set via parameter.
-1.3 Output format should be csv
-1.4 Script should have ability to put data in s3 bucket.
-1.5 Package should have ability to be installed and used in cli.
+   - Script should be packaged with ability to import it as library into python code.
+   - Output should be set via parameter. 
+   - Output format should be csv 
+   - Script should have ability to put data in s3 bucket. 
+   - Package should have ability to be installed and used in cli.
+ 
 2. Script should be covered by unit tests.
 5. Built package should be added as attachment in github workflows.
 6. Unit tests should be executed via github workflows on push, PR.
